@@ -1,5 +1,5 @@
 import useAuthStore from "../../zustand/useAuthStore";
-import { useConversation } from "../../zustand/useConversation";
+import useConversation from "../../zustand/useConversation";
 import { extractTime } from "../../utils/extractTime";
 
 const Message = ({ message }) => {
